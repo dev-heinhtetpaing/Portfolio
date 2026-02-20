@@ -1,8 +1,7 @@
-import { useAppDispatch } from './hook';
-
-import {useInView} from "react-intersection-observer"
+import { useAppDispatch } from '@/hook/hook';
+import { useInView } from "react-intersection-observer"
 import { useEffect } from 'react'
-import { setAcitveSection } from '../features/active_section/activeSectionSlice'
+import { setAcitveSection } from '@/features/active_section/activeSectionSlice'
 
 export const useActiveSection=(section:string,thresdhold:number=5)=>{
     const dispatch=useAppDispatch()

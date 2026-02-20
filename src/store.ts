@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import ActiveSectionReducer from "./features/active_section/activeSectionSlice"
+import ActiveSectionReducer from "@/features/active_section/activeSectionSlice"
 
 
 export const store = configureStore({
